@@ -1,3 +1,14 @@
 body {
-    background-color: skyblue;
+    background-color: rgb(251, 251, 251);
+}
+
+
+.content-container {
+    margin-top: 25px;
+    max-width: 800px; /* Largeur maximale de la carte */
+    margin: 0 auto; /* Centre la carte horizontalement */
+    padding: 20px; /* Espacement intérieur de la carte */
+    background-color: #fff; /* Couleur de fond de la carte */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ombre légère pour la carte */
+    border-radius: 5px; /* Coins arrondis de la carte */
 }
