@@ -27,9 +27,9 @@ L'application est reliée à une base de données hébergée sur un serveur XAMP
 ## Aperçu
 ![Capture d'écran de l'interface principale]("assets/img/Capture d’écran 1.png")
 *Interface principale montrant les interventions sur la carte interactive.*
-<html>
-img<src="assets/img/Capture2.png">
-</html>
+
+![Capture d'écran de la modification d'intervention]("assets/img/Capture2.png")
+
 ![Capture d'écran de la modification d'intervention]("assets/img/Capture d’écran 3.png")
 
 ![Capture d'écran de la modification d'intervention]("assets/img/Capture d’écran 4.png")
