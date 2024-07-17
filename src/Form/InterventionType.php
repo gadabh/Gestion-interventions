@@ -16,6 +16,19 @@ class InterventionType extends AbstractType
         $builder
         ->add('Adresse')
         ->add('Type')
+
+        ->add('Type', ChoiceType::class, [
+            'choices' => [
+                'Technique' => 'Technique',
+                'Ménage' => 'Ménage',
+                'Médiation'=> 'Médiation',
+            ],
+        ])
+
+        
+        
+        
+        
         ->add('Precisions')
         ->add('Statut', ChoiceType::class, [
             'choices' => [

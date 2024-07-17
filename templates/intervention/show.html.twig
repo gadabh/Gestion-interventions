@@ -1,43 +1,16 @@
-{% extends 'base.html.twig' %}
 
-{% block title %}Intervention{% endblock %}
+
+
 
 {% block body %}
-  <div class="content-container">
-    <h1>Intervention</h1>
 
-    <table class="table">
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ intervention.id }}</td>
-            </tr>
-            <tr>
-                <th>Adresse</th>
-                <td>{{ intervention.Adresse }}</td>
-            </tr>
-            <tr>
-                <th>Type</th>
-                <td>{{ intervention.Type }}</td>
-            </tr>
-            <tr>
-                <th>Precisions</th>
-                <td>{{ intervention.Precisions }}</td>
-            </tr>
-            <tr>
-                <th>Statut</th>
-                <td>{{ intervention.Statut }}</td>
-            </tr>
-            <tr>
-                <th>Date</th>
-                <td>{{ intervention.Date ? intervention.Date|date('Y-m-d H:i:s') : '' }}</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <a href="{{ path('app_intervention_index') }}">back to list</a>
+       
+                <div class="card-body">
+                    {{ include('intervention/_show_Form.html.twig') }}
 
-    <a href="{{ path('app_intervention_edit', {'id': intervention.id}) }}">edit</a>
-
-    {{ include('intervention/_delete_form.html.twig') }}
+                </div>
+        
 {% endblock %}
+
+

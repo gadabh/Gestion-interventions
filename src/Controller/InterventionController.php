@@ -4,11 +4,8 @@ namespace App\Controller;
 
 use App\Entity\Intervention;
 use App\Form\InterventionType;
-
 use App\Form\InterventionStatut;
-;
-
-
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use App\Repository\InterventionRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -22,7 +19,7 @@ class InterventionController extends AbstractController
     #[Route('/', name: 'app_intervention_index', methods: ['GET'])]
     public function index(InterventionRepository $interventionRepository): Response
     {
-        return $this->render('intervention/index.html.twig', [
+        return $this->render('intervention/index.html.twig',[
             'interventions' => $interventionRepository->findAll(),
         ]);
     }
@@ -64,10 +61,10 @@ class InterventionController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager->persist($intervention);
             $entityManager->flush();
 
-            return $this->redirectToRoute('app_intervention_index', [], Response::HTTP_SEE_OTHER);
-        }
+            return $this->redirectToRoute('app_intervention_index', [], Response::HTTP_SEE_OTHER);        }
 
         return $this->render('intervention/edit.html.twig', [
             'intervention' => $intervention,
