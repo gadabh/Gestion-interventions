@@ -29,16 +29,16 @@ L'application est reliée à une base de données hébergée sur un serveur XAMP
 ![Capture d'écran de l'interface principale](assets/img/Capture d’écran 1.png)
 *Interface principale montrant les interventions sur la carte interactive.*
 
-![Capture d'écran de la modification d'intervention](assets/images/Capture d’écran 2.png)
+![Capture d'écran de la modification d'intervention](assets/img/Capture d’écran 2.png)
 
-![Capture d'écran de la modification d'intervention](assets/images/Capture d’écran 3.png)
-
-
-![Capture d'écran de la modification d'intervention](assets/images/Capture d’écran 4.png)
+![Capture d'écran de la modification d'intervention](assets/img/Capture d’écran 3.png)
 
 
+![Capture d'écran de la modification d'intervention](assets/img/Capture d’écran 4.png)
 
-![Capture d'écran de la modification d'intervention](assets/images/Capture d’écran3.png)
+
+
+![Capture d'écran de la modification d'intervention](assets/img/Capture d’écran3.png)
 
 
 ## Répertoires et Fichiers Importants
