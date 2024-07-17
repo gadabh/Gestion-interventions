@@ -26,7 +26,7 @@ L'application est reliée à une base de données hébergée sur un serveur XAMP
 - Utiliser les différentes fonctionnalités via l'interface utilisateur pour gérer les interventions.
 
 ## Aperçu
-![Capture d'écran de l'interface principale](assets/img/Capture d’écran 1.png)
+![Capture d'écran de l'interface principale](/assets/img/Capture d’écran 1.png)
 *Interface principale montrant les interventions sur la carte interactive.*
 
 ![Capture d'écran de la modification d'intervention](assets/img/Capture d’écran 2.png)
